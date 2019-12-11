@@ -47,7 +47,6 @@ console.log(doc)
 document.body.onload= function(){
 	var bi = setInterval(function(){
 		var now = parseInt(getStyle(doc,"right"));
-		console.log(now);
 		if(now == 900){
 			doc.style.right = -600+"px";
 			now = 0;
