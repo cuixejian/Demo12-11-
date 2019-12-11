@@ -88,7 +88,7 @@ function prev(){
 		isMoving = false;	
 	});
 }
-var timer =setInterval(next, 2000);
+var timer =setInterval(next, 3000);
 // 鼠标划入清定时器
 box.onmouseover = function(){
 	animate(left,{opacity:50});
@@ -99,7 +99,7 @@ box.onmouseover = function(){
 box.onmouseout = function(){
 	animate(left,{opacity:0});
 	animate(right,{opacity:0});
-	timer = setInterval(next,2000);
+	timer = setInterval(next,3000);
 }
 right.onclick = next;
 left.onclick = prev;
