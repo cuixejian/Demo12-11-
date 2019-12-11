@@ -43,7 +43,6 @@ var doc = document.getElementById('doc');
 var index = 1;
 var isMoving = false;
 //文字滑动
-console.log(doc)
 document.body.onload= function(){
 	var bi = setInterval(function(){
 		var now = parseInt(getStyle(doc,"right"));
